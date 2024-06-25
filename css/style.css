@@ -1,0 +1,40 @@
+body {
+  overflow-x: hidden;
+}
+.container{
+  max-width: 1128px;
+  display: flex;
+  margin:0 auto;
+}
+.gallery-item{
+  list-style: none;
+}
+
+  .gallery{
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .gallery-image{
+      width: 360px;
+      height: 200px; 
+      box-sizing: border-box;
+      transition-duration: 90ms;
+      }
+      .gallery-image:hover{
+        width: 376px;
+        height: 208px; 
+      }
+@media (min-width:1310px) {
+  .container{
+    max-width: 1176px;
+    margin:0 auto;
+}
+}
+    
+
