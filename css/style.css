@@ -27,8 +27,7 @@ body {
       transition-duration: 90ms;
       }
       .gallery-image:hover{
-        width: 376px;
-        height: 208px; 
+        transform:scale(1.04); 
       }
 @media (min-width:1310px) {
   .container{
